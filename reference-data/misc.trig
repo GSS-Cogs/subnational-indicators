@@ -1,0 +1,11 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.gov.uk/theme/graph> {
+
+    <http://data.gov.uk/theme/wellbeing> a skos:Concept ;
+        rdfs:label "Wellbeing"@en ;
+        skos:prefLabel "Wellbeing"@en ;
+        .
+
+}

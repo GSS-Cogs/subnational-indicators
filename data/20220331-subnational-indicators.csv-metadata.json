@@ -1,0 +1,69 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "20220331-subnational-indicators.csv",
+    "tableSchema" : {
+        "columns": [
+            {
+                "title": "area",
+                "name": "area",
+                "datatype": "string",
+                "propertyUrl": "http://data.gov.uk/dataset/subnational-indicators/dimension/area",
+                "valueUrl": "http://statistics.data.gov.uk/id/statistical-geography/{area}"
+            },
+            {
+                "title": "area_label",
+                "datatype": "string",
+                "suppressOutput": true
+            },
+            {
+                "title": "area_type",
+                "datatype": "string",
+                "suppressOutput": true
+            },
+            {
+                "name": "indicator",
+                "title": "indicator",
+                "datatype": "string",
+                "propertyUrl": "qb:measureType",
+                "valueUrl": "http://data.gov.uk/dataset/subnational-indicators/measure/{indicator}"
+            },
+            {
+                "title": "category",
+                "datatype": "string",
+                "suppressOutput": true
+            },
+            {
+                "name": "period_type",
+                "datatype": "string",
+                "suppressOutput": true
+            },
+            {
+                "name": "period",
+                "propertyUrl": "http://data.gov.uk/dataset/subnational-indicators/dimension/period",
+                "valueUrl": "http://reference.data.gov.uk/id/{period_type}/{period}"
+            },
+            {
+                "name": "unit",
+                "propertyUrl": "http://data.gov.uk/dataset/subnational-indicators/dimension/measure-type",
+                "valueUrl": "http://data.gov.uk/dataset/subnational-indicators/measure/{indicator}"
+                
+            },
+            {
+                "name": "value",
+                "datatype": "decimal",
+                "propertyUrl": "http://data.gov.uk/dataset/subnational-indicators/measure/{indicator}"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "rdf:type",
+                "valueUrl": "qb:Observation"
+            },
+            {
+                "virtual": true,
+                "propertyUrl": "qb:dataSet",
+                "valueUrl": "http://data.gov.uk/dataset/subnational-indicators/datacube"
+            }
+        ],
+        "aboutUrl": "http://data.gov.uk/dataset/subnational-indicators/{area}-{period}-{indicator}"
+    }
+}

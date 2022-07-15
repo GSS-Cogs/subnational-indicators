@@ -1,0 +1,258 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pmdcat: <http://publishmydata.com/pmdcat#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.gov.uk/dataset/subnational-indicators/record/graph> {
+
+    <http://gss-data.org.uk/catalog/datasets>
+        dcat:record <http://data.gov.uk/dataset/subnational-indicators/record> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/record> a dcat:CatalogRecord ;
+        rdfs:label "Catalog record for subnational indicators"@en ;
+        dcterms:issued   "2022-07-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified "2022-07-01T00:00:00"^^xsd:dateTime ;
+        foaf:primaryTopic <http://data.gov.uk/dataset/subnational-indicators> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators> a dcat:Dataset ;
+        dcterms:title "Subnational indicators"@en ;
+        rdfs:label "Subnational indicators"@en ;
+        dcterms:description "Subnational indicators bring together in one place a selection of metrics for which data are available at local authority level, promoting transparency and making it easy for users to access and visualise, while linking back to the original publicly available data sources."@en ;
+        rdfs:comment "Subnational indicators bring together in one place a selection of metrics for which data are available at local authority level, promoting transparency and making it easy for users to access and visualise, while linking back to the original publicly available data sources."@en ;
+        dcterms:issued   "2022-07-04T00:00:00"^^xsd:dateTime ;
+        dcterms:modified "2022-07-04T00:00:00"^^xsd:dateTime ;
+        dcterms:license <https://www.nationalarchives.org.uk/doc/open-government-licence/version/3/> ;
+        dcterms:publisher <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        dcterms:creator <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        dcat:theme <http://data.gov.uk/theme/wellbeing> ;
+        dcat:keyword "subnational"@en, "sub-national"@en, "sub-national indicators"@en, "subnational indicators"@en ;
+        dcterms:accrualPeriodicity <http://purl.org/cld/freq/weekly> ;
+        dcterms:spatial <http://statistics.data.org.uk/id/statistical-geography/K02000001> ;
+        dcat:distribution <http://data.gov.uk/dataset/subnational-indicators/datacube> ;
+        dcat:landingPage <https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/subnationalindicatorsexplorer/2022-01-06> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube> a dcat:Distribution ;
+        dcat:accessURL "http://gss-data.org.uk/sparql"^^xsd:anyURI ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/record>
+        pmdcat:metadataGraph <http://data.gov.uk/dataset/subnational-indicators/record/graph> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators> a pmdcat:Dataset ;
+        pmdcat:graph 
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/graph>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/graph> ;
+        pmdcat:datasetContents <http://data.gov.uk/dataset/subnational-indicators/datacube> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube>  a pmdcat:DataCube .
+
+}
+
+<http://data.gov.uk/dataset/subnational-indicators/datacube/structure/graph> {
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube> a qb:DataSet ;
+        qb:structure <http://data.gov.uk/dataset/subnational-indicators/datacube/structure> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure> a qb:DataStructureDefinition ;
+        qb:component 
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/area>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/period>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/measure-type>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/anxiety>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/commute-times-car>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/commute-times-cycle>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/commute-times-pt>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/employment-rate-for-16-to-64-year-olds>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/feeling-worthwhile>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/female-life-expectancy>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/happiness>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/life-satisfaction>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/male-healthy-life-expectancy>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/net-additions-to-housing>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/overweight-adults>,
+            <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/overweight-children-at-reception-age> ;
+            .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/area> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/dimension/area> ;
+        qb:dimension <http://data.gov.uk/dataset/subnational-indicators/dimension/area> ;
+        qb:order 1 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/period> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/dimension/period> ;
+        qb:dimension <http://data.gov.uk/dataset/subnational-indicators/dimension/period> ;
+        qb:order 2 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/measure-type> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/dimension/measure-type> ;
+        qb:dimension <http://data.gov.uk/dataset/subnational-indicators/dimension/measure-type> ;
+        qb:order 3 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/anxiety> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/anxiety> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/anxiety> ;
+        qb:order 4 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/commute-times-car> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-car> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-car> ;
+        qb:order 5 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/commute-times-cycle> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-cycle> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-cycle> ;
+        qb:order 6 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/commute-times-pt> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-pt> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-pt> ;
+        qb:order 7 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/employment-rate-for-16-to-64-year-olds> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/employment-rate-for-16-to-64-year-olds> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/employment-rate-for-16-to-64-year-olds> ;
+        qb:order 8 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/feeling-worthwhile> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/feeling-worthwhile> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/feeling-worthwhile> ;
+        qb:order 9 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/female-life-expectancy> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/female-life-expectancy> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/female-life-expectancy> ;
+        qb:order 10 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/happiness> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/happiness> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/happiness> ;
+        qb:order 11 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/life-satisfaction> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/life-satisfaction> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/life-satisfaction> ;
+        qb:order 12 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/male-healthy-life-expectancy> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/male-healthy-life-expectancy> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/male-healthy-life-expectancy> ;
+        qb:order 13 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/net-additions-to-housing> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/net-additions-to-housing> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/net-additions-to-housing> ;
+        qb:order 14 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/overweight-adults> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-adults> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-adults> ;
+        qb:order 15 ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/datacube/structure/component/overweight-children-at-reception-age> a qb:ComponentSpecification ;
+        qb:componentProperty <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-children-at-reception-age> ;
+        qb:attribute <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-children-at-reception-age> ;
+        qb:order 16 ;
+        .
+
+}
+
+<http://data.gov.uk/dataset/subnational-indicators/vocab/graph> {
+
+    <http://data.gov.uk/dataset/subnational-indicators/dimension/area> a qb:DimensionProperty;
+        rdfs:label "Area"@en ;
+        rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+        qb:codeList <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/dimension/period> a qb:DimensionProperty;
+        rdfs:label "Period"@en ;
+        rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ;
+        qb:codeList <http://data.gov.uk/dataset/subnational-indicators/codelist/period> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/dimension/measure-type> a qb:DimensionProperty;
+        rdfs:label "Measure type"@en ;
+        rdfs:subPropertyOf qb:measureType ;
+        qb:codeList <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/anxiety> a qb:MeasureProperty;
+        rdfs:label "Anxiety"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-car> a qb:MeasureProperty;
+        rdfs:label "Commute times car"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-cycle> a qb:MeasureProperty;
+        rdfs:label "Commute times cycling"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-pt> a qb:MeasureProperty;
+        rdfs:label "Commute times public transport"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/employment-rate-for-16-to-64-year-olds> a qb:MeasureProperty;
+        rdfs:label "Employment rate for 16 to 64 year olds"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/feeling-worthwhile> a qb:MeasureProperty;
+        rdfs:label "Feeling worthwhile"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/female-life-expectancy> a qb:MeasureProperty ;
+        rdfs:label "Female life expectancy"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/happiness> a qb:MeasureProperty ;
+        rdfs:label "Happiness"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/life-satisfaction> a qb:MeasureProperty ;
+        rdfs:label "Life satisfaction"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/male-healthy-life-expectancy> a qb:MeasureProperty ;
+        rdfs:label "Male healthy life expectancy"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/net-additions-to-housing> a qb:MeasureProperty ;
+        rdfs:label "Net additions to housing"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-adults> a qb:MeasureProperty ;
+        rdfs:label "Overweight adults"@en ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-children-at-reception-age> a qb:MeasureProperty ;
+        rdfs:label "Overweight children at reception age"@en ;
+        .
+
+}
+
+
+

@@ -1,0 +1,1765 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pmdcat: <http://publishmydata.com/pmdcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.gov.uk/dataset/subnational-indicators/codelist/area/record/graph> {
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/area/record> a dcat:CatalogRecord ;
+        rdfs:label "Catalog record for codelist of areas for subnational indicators"@en ;
+        dcterms:issued   "2022-07-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified "2022-07-01T00:00:00"^^xsd:dateTime ;
+        foaf:primaryTopic <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/area> a skos:ConceptScheme ;
+        dcterms:title "Areas for subnational indicators"@en ;
+        rdfs:label "Areas for subnational indicators"@en ;
+        rdfs:comment "Codelist of areas for subnational indicators."@en ;
+        dcterms:issued   "2022-07-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified "2022-07-01T00:00:00"^^xsd:dateTime ;
+        dcterms:license <https://www.nationalarchives.org.uk/doc/open-government-licence/version/3/> ;
+        dcterms:publisher <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        dcterms:creator <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        . 
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/area> a pmdcat:Dataset, pmdcat:ConceptScheme ;
+        pmdcat:graph <http://data.gov.uk/dataset/subnational-indicators/codelist/area/graph> ;
+        pmdcat:datasetContents <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/area/record> 
+        pmdcat:metadataGraph <http://data.gov.uk/dataset/subnational-indicators/codelist/area/record/graph>  ;
+        .
+
+}
+
+<http://data.gov.uk/dataset/subnational-indicators/codelist/area/graph> {
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/area> a skos:ConceptScheme .
+
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000001> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000002> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000003> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000004> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000005> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000007> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000009> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000010> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000012> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000013> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000014> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000015> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000016> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000017> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000018> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000019> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000020> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000021> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000022> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000023> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000024> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000025> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000026> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000027> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000028> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000029> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000030> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000031> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000032> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000033> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000034> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000035> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000036> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000037> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000038> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000039> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000040> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000041> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000042> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000043> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000044> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000045> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000046> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000047> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000048> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000049> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000050> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000051> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000052> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000053> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000054> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000055> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000056> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000057> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000058> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000059> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000060> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000061> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E06000062> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000004> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000005> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000007> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000009> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000010> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000012> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000026> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000027> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000028> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000029> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000030> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000031> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000032> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000033> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000034> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000035> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000036> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000037> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000038> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000039> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000040> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000041> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000042> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000043> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000044> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000045> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000046> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000047> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000048> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000049> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000050> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000051> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000052> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000053> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000061> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000062> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000063> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000064> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000065> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000066> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000067> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000068> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000069> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000070> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000071> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000072> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000073> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000074> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000075> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000076> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000077> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000078> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000079> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000080> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000081> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000082> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000083> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000084> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000085> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000086> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000087> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000088> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000089> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000090> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000091> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000092> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000093> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000094> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000095> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000096> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000097> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000098> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000099> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000100> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000101> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000102> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000103> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000104> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000105> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000106> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000107> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000108> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000109> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000110> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000111> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000112> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000113> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000114> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000115> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000116> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000117> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000118> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000119> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000120> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000121> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000122> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000123> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000124> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000125> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000126> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000127> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000128> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000129> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000130> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000131> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000132> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000133> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000134> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000135> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000136> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000137> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000138> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000139> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000140> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000141> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000142> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000143> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000144> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000145> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000146> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000147> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000148> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000149> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000150> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000151> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000152> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000153> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000154> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000155> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000156> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000163> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000164> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000165> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000166> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000167> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000168> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000169> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000170> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000171> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000172> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000173> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000174> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000175> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000176> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000177> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000178> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000179> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000180> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000181> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000187> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000188> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000189> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000190> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000191> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000192> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000193> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000194> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000195> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000196> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000197> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000198> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000199> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000200> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000201> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000202> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000203> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000204> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000205> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000206> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000207> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000208> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000209> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000210> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000211> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000212> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000213> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000214> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000215> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000216> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000217> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000218> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000219> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000220> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000221> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000222> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000223> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000224> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000225> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000226> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000227> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000228> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000229> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000234> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000235> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000236> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000237> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000238> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000239> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000240> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000241> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000242> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000243> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000244> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000245> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E07000246> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000001> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000002> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000003> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000004> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000005> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000007> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000009> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000010> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000012> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000013> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000014> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000015> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000016> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000017> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000018> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000019> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000020> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000021> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000022> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000023> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000024> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000025> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000026> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000027> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000028> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000029> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000030> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000031> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000032> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000033> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000034> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000035> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000036> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E08000037> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000001> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000002> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000003> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000004> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000005> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000007> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000009> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000010> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000012> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000013> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000014> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000015> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000016> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000017> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000018> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000019> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000020> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000021> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000022> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000023> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000024> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000025> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000026> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000027> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000028> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000029> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000030> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000031> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000032> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E09000033> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000003> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000007> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000012> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000013> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000014> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000015> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000016> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000017> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000018> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000019> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000020> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000021> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000023> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000024> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000025> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000027> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000028> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000029> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000030> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000031> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000032> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/E10000034> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000001> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000002> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000003> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000004> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000005> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000007> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000009> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000010> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/N09000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000005> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000010> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000013> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000014> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000017> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000018> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000019> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000020> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000021> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000023> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000026> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000027> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000028> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000029> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000030> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000033> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000034> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000035> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000036> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000038> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000039> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000040> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000041> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000042> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000045> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000047> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000048> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000049> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/S12000050> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000001> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000002> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000003> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000004> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000005> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000006> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000008> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000009> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000010> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000011> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000012> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000013> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000014> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000015> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000016> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000018> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000019> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000020> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000021> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000022> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000023> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+    <http://statistics.data.gov.uk/id/statistical-geography/W06000024> a skos:Concept ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/area> ;
+        .
+
+}

@@ -1,0 +1,159 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pmdcat: <http://publishmydata.com/pmdcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type/record/graph> {
+
+    <http://gss-data.org.uk/catalog/vocabularies>
+        dcat:record <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type/record> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type/record> a dcat:CatalogRecord ;
+        rdfs:label "Catalog record for codelist of measure types for subnational indicators"@en ;
+        dcterms:issued   "2022-07-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified "2022-07-01T00:00:00"^^xsd:dateTime ;
+        foaf:primaryTopic <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> a skos:ConceptScheme ;
+        dcterms:title "Measure types for subnational indicators"@en ;
+        rdfs:label "Measure types for subnational indicators"@en ;
+        rdfs:comment "Codelist of measure types for subnational indicators."@en ;
+        dcterms:issued   "2022-07-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified "2022-07-01T00:00:00"^^xsd:dateTime ;
+        dcterms:license <https://www.nationalarchives.org.uk/doc/open-government-licence/version/3/> ;
+        dcterms:publisher <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        dcterms:creator <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        dcat:theme <http://data.gov.uk/theme/wellbeing> ;
+        dcat:keyword "subnational"@en, "sub-national"@en, "sub-national indicators"@en, "subnational indicators"@en ;
+        . 
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> a pmdcat:Dataset, pmdcat:ConceptScheme ;
+        pmdcat:graph <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type/graph> ;
+        pmdcat:datasetContents <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type/record> 
+        pmdcat:metadataGraph <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type/record/graph>  ;
+        .
+
+}
+
+<http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type/graph> {
+
+    <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> a skos:ConceptScheme ;
+        skos:hasTopConcept 
+            <http://data.gov.uk/dataset/subnational-indicators/measure/boosting-living-standards>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+            .
+
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/boosting-living-standards> a skos:Concept ;
+        rdfs:label "Boosting living standards"@en ;
+        skos:prefLabel "Boosting living standards"@en ;
+        skos:narrower <http://data.gov.uk/dataset/subnational-indicators/measure/employment-rate-for-16-to-64-year-olds> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/employment-rate-for-16-to-64-year-olds> a skos:Concept ;
+        skos:prefLabel "Employment rate for 16 to 64 year olds"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/employment-rate-for-all-ages> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> a skos:Concept ;
+        rdfs:label "Spreading opportunity and improving public services"@en ;
+        skos:prefLabel "Spreading opportunity and improving public services"@en ;
+        skos:narrower 
+            <http://data.gov.uk/dataset/subnational-indicators/measure/anxiety>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-car>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-cycle>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-pt>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/feeling-worthwhile>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/female-life-expectancy>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/happiness>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/life-satisfaction>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/male-healthy-life-expectancy>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/net-additions-to-housing>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-adults>,
+            <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-children-at-reception-age> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/anxiety> a skos:Concept;
+        skos:prefLabel "Anxiety"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-car> a skos:Concept;
+        skos:prefLabel "Commute times car"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-cycle> a skos:Concept;
+        skos:prefLabel "Commute times cycling"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/commute-times-pt> a skos:Concept;
+        skos:prefLabel "Commute times public transport"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/feeling-worthwhile> a skos:Concept;
+        skos:prefLabel "Feeling worthwhile"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/female-life-expectancy> a skos:Concept ;
+        skos:prefLabel "Female life expectancy"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/happiness> a skos:Concept ;
+        skos:prefLabel "Happiness"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/life-satisfaction> a skos:Concept ;
+        skos:prefLabel "Life satisfaction"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/male-healthy-life-expectancy> a skos:Concept ;
+        skos:prefLabel "Male healthy life expectancy"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/net-additions-to-housing> a skos:Concept ;
+        skos:prefLabel "Net additions to housing"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-adults> a skos:Concept ;
+        skos:prefLabel "Overweight adults"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+    <http://data.gov.uk/dataset/subnational-indicators/measure/overweight-children-at-reception-age> a skos:Concept ;
+        skos:prefLabel "Overweight children at reception age"@en ;
+        skos:broader <http://data.gov.uk/dataset/subnational-indicators/measure/spreading-opportunity-and-improving-public-services> ;
+        skos:inScheme <http://data.gov.uk/dataset/subnational-indicators/codelist/measure-type> ;
+        .
+
+}
