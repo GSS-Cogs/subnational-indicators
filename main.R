@@ -56,4 +56,5 @@ df <- df %>%
 write_csv(
   df,
   "./data/20220331-subnational-indicators.csv",
+  na = ""
 )
