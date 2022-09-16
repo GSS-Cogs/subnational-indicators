@@ -32,7 +32,7 @@
         dcat:theme <http://data.gov.uk/theme/wellbeing> ;
         dcat:keyword "subnational"@en, "sub-national"@en, "sub-national indicators"@en, "subnational indicators"@en ;
         dcterms:accrualPeriodicity <http://purl.org/cld/freq/weekly> ;
-        dcterms:spatial <http://statistics.data.org.uk/id/statistical-geography/K02000001> ;
+        dcterms:spatial <http://statistics.data.gov.uk/id/statistical-geography/K02000001> ;
         dcat:distribution <http://data.gov.uk/dataset/subnational-indicators/datacube> ;
         dcat:landingPage <https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/subnationalindicatorsexplorer/2022-01-06> ;
         .
